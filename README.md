@@ -11,12 +11,15 @@ A lightweight, journal-isolated plugin for Open Journal Systems (OJS) 3.5+ that 
 
 ## Sample output
 Header:
+
 ![sample header screenshot](images/sample_header_screenshot.png)
 
 Footer:
+
 ![sample header screenshot](images/sample_footer_screenshot.png)
 
 Full-size sample:
+
 ![sample result](images/sample_result.png)
 
 Live preview: *(To follow)*
