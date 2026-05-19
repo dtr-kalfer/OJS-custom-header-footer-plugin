@@ -40,7 +40,7 @@ Live preview: *(To follow)*
 
 **Custom Header/Footer Background Settings:**
 
-![OJS Header/Footer Settings](inside_settings.webp)
+![OJS Header/Footer Settings](images/inside_settings.webp)
 
 ## Compatibility
 - Tested on OJS 3.5.x.x.
