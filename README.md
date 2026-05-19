@@ -2,7 +2,7 @@
 
 A lightweight, journal-isolated plugin for Open Journal Systems (OJS) 3.5+ that allows site administrators to set a custom background image and opacity for the header and footer sections of their journal.
 
-![OJS Custom Header Plugin Settings](images/plugin_show.png)
+![OJS Custom Header Plugin Settings](images/plugin_show.webp)
 ## Features
 - **Journal-Specific:** Settings are isolated per journal. You can customize your test journal without affecting your production site.
 - **Non-Destructive Styling:** Uses CSS pseudo-elements to apply opacity to backgrounds without fading out your site's navigation, logos, or text.
@@ -12,15 +12,15 @@ A lightweight, journal-isolated plugin for Open Journal Systems (OJS) 3.5+ that 
 ## Sample output
 Header:
 
-![sample header screenshot](images/sample_header_screenshot.png)
+![sample header screenshot](images/sample_header_screenshot.webp)
 
 Footer:
 
-![sample header screenshot](images/sample_footer_screenshot.png)
+![sample header screenshot](images/sample_footer_screenshot.webp)
 
 Full-size sample:
 
-![sample result](images/sample_result.png)
+![sample result](images/sample_result.webp)
 
 Live preview: *(To follow)*
 ## Installation
@@ -37,6 +37,10 @@ Live preview: *(To follow)*
 ## Usage
 - **Image URL:** You can provide a relative path (e.g., `/public/journals/2/bg.webp`) or a full external URL.
 - **Opacity:** Enter a decimal between `0.0` (fully transparent) and `1.0` (fully opaque).
+
+**Custom Header/Footer Background Settings:**
+
+![OJS Header/Footer Settings](inside_settings.webp)
 
 ## Compatibility
 - Tested on OJS 3.5.x.x.
