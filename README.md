@@ -35,10 +35,35 @@ Live preview: *(To follow)*
 8. Test first on a development server. *note: On my OJS current setup, I only have default plugins enabled. *
 
 ## Usage
-- **Image URL:** You can provide a relative path (e.g., `/public/journals/2/bg.webp`) or a full external URL.
-- **Opacity:** Enter a decimal between `0.0` (fully transparent) and `1.0` (fully opaque).
 
-**Custom Header/Footer Background Settings:**
+You have two options for hosting your images. Choose the method that best fits your technical setup.
+
+### Option 1: External Hosting (Easiest)
+
+If you prefer not to interact with your server files directly, you can host your images on a third-party service (e.g., Imgur, Unsplash, or your own CDN).
+
+- **Configuration:** Simply copy the direct image link (e.g., `[https://example.com/images/header.jpg](https://example.com/images/header.jpg)`) and paste it into the plugin's **Image URL** field.
+    
+### Option 2: Local Server Hosting (Advanced)
+
+If you require full control over your assets, you can host the images directly within your OJS installation. This requires SSH access and familiarity with your server's file system.
+
+1. **Access your server:** Connect via SSH to your hosting environment.
+    
+2. **Navigate to the directory:** Locate your OJS public uploads folder at `[OJS_ROOT]/public/journals/x/` (replace `x` with your specific Journal ID).
+    
+3. **Upload your files:** Transfer your images (e.g., `header.webp`, `footer.png`) to this directory.
+    
+4. **Permissions:** Ensure the web server user (e.g., `www-data`) has read permissions for these files.
+    
+5. **Configuration:** Enter the relative path from the OJS root (e.g., `/public/journals/2/header.webp`) into the plugin's **Image URL** field.
+    
+
+### Setting Opacity
+
+- **Opacity:** Enter a decimal between `0.0` (fully transparent) and `1.0` (fully opaque) to define how much the background shows through. This value is applied independently to both the header and footer.
+
+**Sample Custom Header/Footer Background Settings:**
 
 ![OJS Header/Footer Settings](images/inside_settings.webp)
 
